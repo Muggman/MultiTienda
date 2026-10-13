@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda Online Multi-Tienda</title>
+    <meta name="description" content="Plataforma e-commerce multi-tienda configurable con Angular 19, catálogo desde Excel, carrito independiente, checkout con presupuestos en PDF y pasarela Mercado Pago." />
+    <meta property="og:title" content="Tienda Online Multi-Tienda" />
+    <meta property="og:description" content="Plataforma e-commerce multi-tienda configurable con Angular 19, catálogo desde Excel, carrito independiente, checkout con presupuestos en PDF y pasarela Mercado Pago." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Estilos base y Tailwind CSS -->
+    <link rel="stylesheet" href="/src/index.css" />
+
+    <!-- Configuración viva de tiendas (editable en tiempo de ejecución sin recompilar) -->
+    <script src="/config/tiendas.config.js"></script>
+  </head>
+  <body class="antialiased min-h-screen">
+    <app-root></app-root>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

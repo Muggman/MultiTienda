@@ -1,0 +1,6 @@
+{
+  "name": "Tienda Online Multi-Tienda",
+  "description": "Plataforma e-commerce multi-tienda configurable con Angular 19, catálogo desde Excel, carrito independiente, checkout con presupuestos en PDF y pasarela Mercado Pago.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

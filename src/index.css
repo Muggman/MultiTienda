@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+:root {
+  --color-primario: #1e293b;
+  --color-secundario: #f59e0b;
+  --color-fondo: #f8fafc;
+  --color-texto: #0f172a;
+  --color-acento: #e11d48;
+}
+
+body {
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  min-height: 100vh;
+}
+
+/* Estilos de botones que responden a variables CSS de la tienda */
+.btn-primary {
+  background-color: var(--color-primario);
+  color: #ffffff;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-primary:hover {
+  opacity: 0.92;
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  background-color: var(--color-secundario);
+  color: #ffffff;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-secondary:hover {
+  opacity: 0.92;
+  transform: translateY(-1px);
+}
+
+.btn-accent {
+  background-color: var(--color-acento);
+  color: #ffffff;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-accent:hover {
+  opacity: 0.92;
+  transform: translateY(-1px);
+}
+
+.border-theme-primary {
+  border-color: var(--color-primario);
+}
+.border-theme-secondary {
+  border-color: var(--color-secundario);
+}
+.text-theme-primary {
+  color: var(--color-primario);
+}
+.text-theme-secundario {
+  color: var(--color-secundario);
+}
+.text-theme-acento {
+  color: var(--color-acento);
+}
+
+/* Scrollbar sutil */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.04);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.35);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.55);
+}
